@@ -1,0 +1,19 @@
+name: KillEffects
+version: '${project.version}'
+main: com.killeffects.KillEffectsPlugin
+api-version: '1.21'
+author: GeminiCLI
+description: Advanced Kill Effects System
+depend: [ProtocolLib]
+softdepend: [PlaceholderAPI, ItemsAdder, Oraxen, Nexo]
+commands:
+  killeffects:
+    description: Main command for KillEffects
+    aliases: [ke, effects]
+permissions:
+  killeffects.use:
+    description: Allows usage of the plugin
+    default: true
+  killeffects.admin:
+    description: Admin permissions for KillEffects
+    default: op

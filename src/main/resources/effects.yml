@@ -1,0 +1,166 @@
+effects:
+  lightning:
+    name: "Classic Lightning"
+    actions:
+      0:
+        sound: "ENTITY_LIGHTNING_BOLT_THUNDER"
+        volume: 1.0
+        pitch: 1.0
+      50:
+        particle: "FLAME"
+        count: 50
+        offsetX: 0.1
+        offsetY: 2.0
+        offsetZ: 0.1
+        extra: 0.2
+  soul_burst:
+    name: "Soul Burst"
+    actions:
+      0:
+        sound: "ENTITY_GENERIC_EXPLODE"
+        volume: 0.5
+        pitch: 1.5
+        particle: "SOUL"
+        count: 20
+        offsetX: 0.3
+        offsetY: 0.3
+        offsetZ: 0.3
+        extra: 0.1
+      200:
+        particle: "SOUL_FIRE_FLAME"
+        count: 30
+        offsetX: 0.5
+        offsetY: 0.5
+        offsetZ: 0.5
+        extra: 0.05
+  grave:
+    name: "Temporary Grave"
+    actions:
+      0:
+        sound: "ENTITY_WITHER_SPAWN"
+        volume: 0.3
+        pitch: 0.8
+        structure:
+          material: "COBBLESTONE"
+          duration: 5000
+          scale:
+            x: 0.8
+            y: 1.2
+            z: 0.2
+          offset:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+      50:
+        particle: "SOUL"
+        count: 10
+        offsetY: 1.0
+  blood_explosion:
+    name: "Blood Explosion"
+    actions:
+      0:
+        sound: "ENTITY_PLAYER_HURT"
+        volume: 1.0
+        pitch: 0.5
+        particle: "LAVA"
+        count: 30
+        offsetX: 0.2
+        offsetY: 0.5
+        offsetZ: 0.2
+        extra: 0.1
+      100:
+        particle: "LARGE_SMOKE"
+        count: 20
+        offsetX: 0.3
+        offsetY: 0.3
+        offsetZ: 0.3
+        extra: 0.05
+  emerald_fountain:
+    name: "Emerald Fountain"
+    actions:
+      0:
+        sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+        volume: 1.0
+        pitch: 1.0
+        particle: "VILLAGER_HAPPY"
+        count: 50
+        offsetX: 0.5
+        offsetY: 1.0
+        offsetZ: 0.5
+        extra: 0.2
+      200:
+        particle: "VILLAGER_HAPPY"
+        count: 30
+        offsetY: 2.0
+        extra: 0.1
+  tornado:
+    name: "White Tornado"
+    actions:
+      0:
+        sound: "ENTITY_PLAYER_ATTACK_SWEEP"
+        particle: "CLOUD"
+        count: 20
+        offsetX: 0.5
+        offsetZ: 0.5
+        extra: 0.1
+      100:
+        particle: "CLOUD"
+        count: 20
+        offsetY: 0.5
+        offsetX: 0.6
+        offsetZ: 0.6
+      200:
+        particle: "CLOUD"
+        count: 20
+        offsetY: 1.0
+        offsetX: 0.7
+        offsetZ: 0.7
+      300:
+        particle: "CLOUD"
+        count: 20
+        offsetY: 1.5
+        offsetX: 0.8
+        offsetZ: 0.8
+      400:
+        particle: "CLOUD"
+        count: 20
+        offsetY: 2.0
+        offsetX: 0.9
+        offsetZ: 0.9
+  firework_lite:
+    name: "Firework Lite"
+    actions:
+      0:
+        sound: "ENTITY_FIREWORK_ROCKET_LAUNCH"
+        volume: 1.0
+        pitch: 1.0
+      500:
+        sound: "ENTITY_FIREWORK_ROCKET_BLAST"
+        volume: 1.0
+        pitch: 1.0
+        particle: "FIREWORK"
+        count: 100
+        offsetX: 1.0
+        offsetY: 1.0
+        offsetZ: 1.0
+        extra: 0.1
+  void_hole:
+    name: "Void Hole"
+    actions:
+      0:
+        sound: "ENTITY_ENDERMAN_TELEPORT"
+        volume: 1.0
+        pitch: 0.5
+        particle: "PORTAL"
+        count: 100
+        offsetX: 0.5
+        offsetY: 1.0
+        offsetZ: 0.5
+        extra: 0.5
+      300:
+        particle: "DRAGON_BREATH"
+        count: 50
+        offsetX: 0.3
+        offsetY: 0.3
+        offsetZ: 0.3
+        extra: 0.05

@@ -1,0 +1,19 @@
+# KillEffects Configuration
+database:
+  type: "sqlite" # "mysql" or "sqlite"
+  host: "localhost"
+  port: 3306
+  name: "killeffects"
+  username: "root"
+  password: ""
+
+settings:
+  # Enable effects for mob kills?
+  mobs_enabled: true
+  # Cooldown between effects (ms)
+  cooldown: 500
+
+messages:
+  prefix: "<gray>[<red>KillEffects</red>]</gray> "
+  no_permission: "<red>You don't have permission to do this!</red>"
+  reloaded: "<green>Plugin reloaded successfully!</green>"
